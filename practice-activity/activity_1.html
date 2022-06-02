@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Actividad 1</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h1 style="text-align: center;">Actividad 1</h1>
+		<!--Agregar para mostrar la puntuacion-->
+		<!--Le podemos poner ID-->
+		<h2 id="puntuacion">Puntuación: </h2>
+		
+		<!--Agregamos el evento de ONCLICK-->
+		<!--btm-warning: border color naranja-->
+		<button class="btn btn-warning" onclick="actualizar()">Actualizar puntaje</button>
+		<br>
+		<br>
+
+		<!--Agregamos funcion onclick en donde guardaremos -->
+		<!--btn-success: borde y fondo verde claro-->
+		<button class="btn btn-success" onclick="guardar()">Guardar puntaje</button>
+		<br>
+		<br>
+
+		<!--agregamos btn-info: agrega borde y fondo azul claro-->
+		<!--agregamos el evento onclick para ir a la siguiente pagina-->
+		<button class="btn btn-info" onclick="siguiente()">Siguiente página</button>
+	</div>
+	
+<script src="activity1.js"></script>
+</body>
+</html>
